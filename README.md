@@ -10,7 +10,7 @@
 ## 一、集成SDK
 
 下载小游戏CocosCreator SDK，并在代码中引入对应的SDK文件：
-[下载小游戏CocosCreator SDK](https://github.com/ABetterChoice/cocos-creator-sdk/archive/refs/heads/master.zip)
+[下载抖音小游戏CocosCreator SDK](https://github.com/ABetterChoice/tt-cocos-creator-sdk/archive/refs/heads/main.zip)
 
 如果您的项目是 TypeScript 工程，接入步骤如下：
 
@@ -159,7 +159,7 @@ const boolValue = configInfo?.getBoolValue(false);
 
 ## 三、最佳实践
 
-[下载CocosCreator SDK](https://github.com/ABetterChoice/cocos-creator-sdk/archive/refs/heads/master.zip)，根据上面集成SDK的方式引入对应的文件之后，您就可以在代码中直接使用SDK功能，并开始上报数据了：
+[下载抖音小游戏CocosCreator SDK](https://github.com/ABetterChoice/tt-cocos-creator-sdk/archive/refs/heads/main.zip)，根据上面集成SDK的方式引入对应的文件之后，您就可以在代码中直接使用SDK功能，并开始上报数据了：
 
 ```typescript
 const config = {
