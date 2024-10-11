@@ -169,7 +169,6 @@ const config = {
   autoTrack: {   // 可选，自动采集配置
     mgShow: true,  // 自动采集，小程序启动，或从后台进入前台
     mgHide: true,  // 自动采集，小程序从前台进入后台
-    mgShare: true, // 自动采集，小程序分享时自动采集
   }
 };
 // 打开SDK日志，默认关闭，上线前可关闭
