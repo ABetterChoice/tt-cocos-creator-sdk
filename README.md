@@ -10,8 +10,13 @@
 
 ## 一、集成 SDK
 
+<<<<<<< HEAD
 下载抖音小游戏 CocosCreator SDK，并在代码中引入对应的 SDK 文件：
 [下载小游戏 CocosCreator SDK](https://github.com/ABetterChoice/tt-cocos-creator-sdk/archive/refs/heads/main.zip)
+=======
+下载小游戏CocosCreator SDK，并在代码中引入对应的SDK文件：
+[下载抖音小游戏CocosCreator SDK](https://github.com/ABetterChoice/tt-cocos-creator-sdk/archive/refs/heads/main.zip)
+>>>>>>> 0f15f6a79e293ea5c5ef0b859331b2f3b63247dd
 
 如果您的项目是 TypeScript 工程，接入步骤如下：
 
@@ -179,7 +184,11 @@ const boolValue = configInfo?.getBoolValue(false);
 
 ## 三、最佳实践
 
+<<<<<<< HEAD
 [下载 CocosCreator SDK](https://github.com/ABetterChoice/tt-cocos-creator-sdk/archive/refs/heads/main.zip)，根据上面集成 SDK 的方式引入对应的文件之后，您就可以在代码中直接使用 SDK 功能，并开始上报数据了：
+=======
+[下载抖音小游戏CocosCreator SDK](https://github.com/ABetterChoice/tt-cocos-creator-sdk/archive/refs/heads/main.zip)，根据上面集成SDK的方式引入对应的文件之后，您就可以在代码中直接使用SDK功能，并开始上报数据了：
+>>>>>>> 0f15f6a79e293ea5c5ef0b859331b2f3b63247dd
 
 ```typescript
 //初始化配置参数
@@ -189,7 +198,6 @@ const config = {
   autoTrack: {   // 可选，自动采集配置，不设置时默认全部打开
     mgShow: true,  // 自动采集，小程序启动，或从后台进入前台
     mgHide: true,  // 自动采集，小程序从前台进入后台
-    mgShare: true, // 自动采集，小程序分享时自动采集
   }
 };
 // 打开SDK日志，默认关闭，上线前可关闭
